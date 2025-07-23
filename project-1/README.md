@@ -25,7 +25,7 @@ cd docker-cont.publ/project-1
 Use the following command to build the Docker image:
 ```bash
 docker build -t project-1 .
-```
+````
 
 ### Step 4: Run the Docker Container
 Run the container to start the application:
