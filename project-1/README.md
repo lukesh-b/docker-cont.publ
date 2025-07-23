@@ -23,13 +23,15 @@ cd docker-cont.publ/project-1
 
 ### Step 3: Build the Docker Image
 Use the following command to build the Docker image:
+```bash
 docker build -t project-1 .
-
+```
 
 ### Step 4: Run the Docker Container
 Run the container to start the application:
+```bash
 docker run -p 5000:5000 project-1
-
+```
 
 ### Step 5: Access the Application
 Once the container is running, you can access the application by visiting [http://localhost:5000](http://localhost:5000).
