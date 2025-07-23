@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore environment files
+.env
+
+# Ignore Docker artifacts
+.docker/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore logs
+*.log
+
+# Ignore IDE files (e.g., VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore node_modules if you are using Node.js in your project
+node_modules/
+
+# Ignore build files
+*.tar.gz
+*.tar
