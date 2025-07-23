@@ -11,3 +11,29 @@ This project demonstrates how to set up a basic Python Flask application using D
 
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
+git clone https://github.com/your-username/docker-cont.publ.git
+
+
+### Step 2: Navigate to Project 1 Directory
+cd docker-cont.publ/project-1
+
+
+### Step 3: Build the Docker Image
+Use the following command to build the Docker image:
+docker build -t project-1 .
+
+
+### Step 4: Run the Docker Container
+Run the container to start the application:
+docker run -p 5000:5000 project-1
+
+
+### Step 5: Access the Application
+Once the container is running, you can access the application by visiting [http://localhost:5000](http://localhost:5000).
+
+## Configuration
+You can configure the application via the `.env` file located in the `config/` directory.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+
