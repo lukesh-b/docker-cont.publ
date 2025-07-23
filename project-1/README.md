@@ -13,7 +13,7 @@ This project demonstrates how to set up a basic Python Flask application using D
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/docker-cont.publ.git
+git clone https://github.com/lukesh-b/docker-cont.publ.git
 ```
 
 ### Step 2: Navigate to Project 1 Directory
